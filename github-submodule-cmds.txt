@@ -1,0 +1,29 @@
+parent folder - serverless-tracing, submodules - Ishaan-MTP-2022, Nandini-MTP-2022, Rajat-BTP-2022, Narayan-MTP-2022, Vamshi-MTP-2022, Utkalika-Project
+
+cd serverless-tracing
+touch testfile.html
+git add .
+git commit -m "Add the testfile file"
+git push origin
+
+cd .\Ishaan-MTP-2022
+touch testSubFile.html
+git add .
+git commit -m "Add testSubFile File" 
+git push origin
+
+cd ..
+git submodule add https://github.com/usatpath01/Ishaan-MTP-2022.git
+git submodule add https://github.com/usatpath01/Nandini-MTP-2022.git
+git submodule add https://github.com/usatpath01/Rajat-BTP-2022.git
+git submodule add https://github.com/usatpath01/Narayan-MTP-2022.git
+git submodule add https://github.com/usatpath01/Vamshi-MTP-2022.git
+git submodule add https://github.com/usatpath01/Utkalika-Project.git
+
+git status 
+
+git add .  
+
+git commit -m "Add GitHub submodule"  
+
+git push

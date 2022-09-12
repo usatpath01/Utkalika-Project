@@ -26,4 +26,4 @@ git add .
 
 git commit -m "Add GitHub submodule"  
 
-git push
+git push origin
